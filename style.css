@@ -1,35 +1,32 @@
 body{
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: #ffd6e7;
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    box-sizing: border-box;
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#ffd6e7;
+    font-family:Arial, sans-serif;
 }
 
 .carta{
-    background: white;
-    padding: 25px;
-    border-radius: 20px;
-    width: 100%;
-    max-width: 300px;
-    text-align: center;
-    box-shadow: 0 0 15px rgba(0,0,0,.2);
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    width:300px;
+    text-align:center;
+    box-shadow:0 0 15px rgba(0,0,0,.2);
 }
 
 h1{
-    color: #e91e63;
+    color:#e91e63;
 }
 
 button{
-    margin-top: 20px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 10px;
-    background: #e91e63;
-    color: white;
-    font-size: 16px;
+    margin-top:20px;
+    padding:10px 20px;
+    border:none;
+    border-radius:10px;
+    background:#e91e63;
+    color:white;
+    font-size:16px;
 }
